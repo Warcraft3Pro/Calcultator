@@ -1,0 +1,41 @@
+"""Filename: interview.py
+Author: <Daniels, Elias>
+Created: <08/22/2025>
+Instructor: Holtslander
+"""
+adjective1 = input('Give me an adjective')
+adjective2 = input('Give me an adjective')
+adjective3 = input('Give me an adjective')
+adjective4 = input('Give me an adjective')
+adjective5 = input('Give me an adjective')
+adjective6 = input('Give me an adjective')
+adjective7 = input('Give me an adjective')
+adjective8 = input('Give me an adjective')
+noun1 = input("Give me a noun")
+noun2 = input("Give me a noun")
+noun3 = input("Give me a noun")
+noun4 = input("Give me a noun")
+noun5 = input("Give me a noun")
+noun6 = input("Give me a noun")
+noun7 = input("Give me a noun")
+noun8 = input("Give me a noun")
+pnoun = input("Give me a plural noun")
+emotion1 = input('Give me an emotion')
+emotion2 = input('Give me an emotion')
+emotion3 = input('Give me an emotion')
+verbing = input('verb ending in -ing')
+number = input('Give me a number')
+timeunit = input('Give me a time unit')
+name = input('Give me a name')
+pronouns = input('Give me pronouns (he/she/they)')
+classg = input('Give me a class or group')
+snack = input('give me a snack')
+print(f'I can hardly wait to go to school today because I have something {adjective1} to show my friends!\n'
+      f'It’s my new {noun1} that I’ve been {verbing} for number time unit. I know they’re going to be so {emotion1} when they\n'
+      f' see it. This morning I carefully packed my {noun2} in my {adjective2} {noun3}. I made sure everything was {adjective3}\n'
+      f' and {adjective4} so that it would be ready for my {adjective5} {noun4}. I even practiced my {noun5} speech to make\n'
+      f'sure I don’t forget any {pnoun}.When I arrive at school, the first thing I’ll do is show it to my best friend,\n'
+      f' name. I’m sure {pronouns} will be as {emotion2} as I am. I hope everyone in {classg} will be impressed and maybe\n'
+      f' even a little {emotion3}.After showing it off, I plan to celebrate by having a {adjective6} snack with my friends.\n'
+      f' It’s going to be a {adjective7} day, and I can’t wait to see everyone’s {noun6} when they see my {noun7}. I hope\n'
+      f' today turns out to be the most {adjective8} day ever!')
