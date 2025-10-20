@@ -1,0 +1,91 @@
+score = 0
+correct = 0
+q1 = input("What is the capital of France?\n").lower()
+if q1 == "paris":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q2 = input("What is 1+1\n").lower()
+if q2 == "2":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q3 = input("What is 2+2?\n").lower()
+if q3 == "4":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q4 = input("What is 3+3?\n").lower()
+if q4 == "6":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q5 = input("What is 4+4?\n").lower()
+if q5 == "8":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q6 = input("What is 5+5?\n").lower()
+if q6 == "10":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q7 = input("What is 6+6?\n").lower()
+if q7 == "12":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q8 = input("What is 7+7?\n").lower()
+if q8 == "14":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q9 = input("What is 8+8?\n").lower()
+if q9 == "16":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q10 = input("What is 9+9?\n").lower()
+if q10 == "18":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+q11 = input("What is 10*10?\n").lower()
+if q11 == "100":
+    score = score + 2
+    correct = correct + 1
+else:
+    if score > 0:
+        score = score - 1
+    correct = correct + 0
+print(score, correct)
